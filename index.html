@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E1 - JS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="title">
+        <h1>Pizzería Old School</h1>
+        <h2 class="subTitle">¡Mantenemos los precios como si fuera 2019!</h2>
+      </div>
+
+      <div class="seccionPizzas">
+        <h2>Esta es nuestra selección de pizzas:</h2>
+        <ul>
+          <li id="1">1 - Muzzarela</li>
+          <li id="2">2 - De Cancha</li>
+          <li id="3">3 - Jamón</li>
+          <li id="4">4 - Jamón y Morrón</li>
+          <li id="5">5 - Jamón y Rúcula</li>
+          <li id="6">6 - Fugazzeta</li>
+        </ul>
+      </div>
+
+      <form class="pedirPizza">
+        <div class="title">
+          <h2>¡Ordene su Pizza ya!</h2>
+          <h4 class="subTitle">
+            Si el envío demora más de 4 horas, le descontamos 10 pesos.
+          </h4>
+        </div>
+        <div class="campoForm">
+          <label for="numeroPizza">Indique el número de pizza deseada:</label>
+          <input type="number" name="numeroPizza" id="numeroPizza" />
+          <small></small>
+        </div>
+
+        <div class="campoForm">
+          <label for="cantidadPizzas"
+            >Indique la cantidad de pizzas deseada</label
+          >
+          <input
+            type="number"
+            name="cantidadPizzas"
+            id="cantidadPizzas"
+            value="1"
+          />
+          <small></small>
+        </div>
+
+        <div class="button-container">
+          <button type="submit">Hacer el pedido</button>
+          <button type="button" class="delete-btn">Reiniciar el pedido</button>
+        </div>
+      </form>
+
+      <div class="cardContainer">
+        <!-- <div class="cardPizza">
+          <h2 class="nombrePizza">Muzzarela</h2>
+          <h4 class="precioPizza">$500 c/u</h4>
+          <div class="precioTotal">
+            <h3>Precio Total: $500</h3>
+          </div>
+        </div>
+        <div class="cardPizza">
+          <h2 class="nombrePizza">Jamón y Rúcula</h2>
+          <h4 class="precioPizza">$800 c/u</h4>
+          <div class="precioTotal">
+            <h3>Precio Total: $500</h3>
+          </div>
+        </div> -->
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

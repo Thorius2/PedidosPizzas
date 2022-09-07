@@ -1,0 +1,201 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    /* width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; */
+    list-style-type: none;
+}
+
+
+body {
+    color: white;
+    background-color: #242424;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subTitle {
+    font-style: italic;
+}
+
+.seccionPizzas {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+}
+
+form {
+    width: 90%;
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.campoForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form h3 {
+    text-align: center;
+}
+
+input {
+    width: 80%;
+    max-width: 70px;
+    padding: 3px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+
+input:focus {
+ border: none;
+ outline: none;
+ outline-offset: 0;
+ border: brown 2px solid;
+ padding: 1px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    max-width: 400px;
+    gap: 30px;
+}
+
+.cardPizza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: brown;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.precioTotal {
+    background-color: beige;
+    width: 100%;
+    padding: 5px;
+    color: #242424;
+    text-align: center;
+}
+
+.error {
+    color: white;
+    text-align: center;
+    background-color: brown;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+small {
+    font-size: 15px;
+}
+
+button {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    border: 2px solid brown;
+    font-size: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.delete-btn {
+    background-color: brown;
+    color: white;
+    border: 2px solid white;;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
+
+
